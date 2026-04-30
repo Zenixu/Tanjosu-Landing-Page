@@ -122,13 +122,16 @@ export default function Footer() {
                 </svg>
                 <span className="group-hover:text-white transition-colors">0858-0018-6176</span>
               </a>
-              <div
-                className="flex items-center gap-3 text-base"
+              <a
+                href="https://www.google.com/maps/place/Tanjosu+Cianjur/@-6.8268971,107.1362129,21z/data=!4m6!3m5!1s0x2e685300291b059b:0x492fc0261f6428c4!8m2!3d-6.8270063!4d107.1362121!16s%2Fg%2F11xyp5_2lh!5m1!1e1?entry=ttu&g_ep=EgoyMDI2MDQyNy4wIKXMDSoASAFQAw%3D%3D"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-3 text-base group"
                 style={{ color: 'rgba(253,252,251,0.55)' }}
               >
                 <span className="text-base">📍</span>
-                Jl. Siliwangi, Sawah Gede, Cianjur
-              </div>
+                <span className="group-hover:text-white transition-colors">Jl. Siliwangi, Sawah Gede, Cianjur</span>
+              </a>
               <div
                 className="flex items-center gap-3 text-base"
                 style={{ color: 'rgba(253,252,251,0.55)' }}

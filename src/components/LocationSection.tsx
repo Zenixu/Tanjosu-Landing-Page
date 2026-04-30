@@ -73,16 +73,19 @@ export default function LocationSection() {
                   >
                     Alamat
                   </h3>
-                  <p
-                    className="text-base leading-relaxed"
-                    style={{ color: 'rgba(4,57,39,0.65)' }}
+                  <a
+                    href="https://www.google.com/maps/place/Tanjosu+Cianjur/@-6.8268971,107.1362129,21z/data=!4m6!3m5!1s0x2e685300291b059b:0x492fc0261f6428c4!8m2!3d-6.8270063!4d107.1362121!16s%2Fg%2F11xyp5_2lh!5m1!1e1?entry=ttu&g_ep=EgoyMDI2MDQyNy4wIKXMDSoASAFQAw%3D%3D"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-base leading-relaxed hover:underline block transition-all"
+                    style={{ color: 'rgba(4,57,39,0.8)' }}
                   >
                     Bekas Pom Joglo, Jl. Siliwangi,
                     <br />
                     Sawah Gede, Cianjur,
                     <br />
                     Jawa Barat
-                  </p>
+                  </a>
                 </div>
               </div>
             </div>

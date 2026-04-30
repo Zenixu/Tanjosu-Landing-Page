@@ -52,15 +52,17 @@ export default function LoadingScreen({ isLoading }: LoadingScreenProps) {
 
               {/* Logo circle */}
               <motion.div
-                className="w-32 h-32 rounded-full flex items-center justify-center relative overflow-hidden"
-                style={{ background: 'linear-gradient(135deg, #065f46, #043927)' }}
+                className="w-32 h-32 rounded-full flex items-center justify-center relative overflow-hidden shadow-2xl"
+                style={{ background: 'white' }}
                 animate={{ scale: [1, 1.05, 1] }}
                 transition={{ duration: 1.5, repeat: Infinity, ease: 'easeInOut' }}
               >
-                <div className="absolute inset-0 rounded-full border-2 border-yellow-400 opacity-60" />
-                <div className="text-center">
-                  <div className="text-5xl mb-1">🍚</div>
-                </div>
+                <div className="absolute inset-0 rounded-full border-2 border-[#C5A059] opacity-60" />
+                <img
+                  src="/images/Logo_Tanjosu.png"
+                  alt="Tanjosu Logo"
+                  className="w-24 h-24 object-contain"
+                />
               </motion.div>
             </div>
 
