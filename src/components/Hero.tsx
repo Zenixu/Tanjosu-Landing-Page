@@ -23,24 +23,25 @@ export default function Hero() {
       {/* Video Background */}
       <video
         ref={videoRef}
-        className="absolute inset-0 w-full h-full object-cover"
+        className="absolute inset-0 w-full h-full object-cover opacity-60"
         autoPlay
         muted
         loop
         playsInline
-        poster="/images/ketan-hero.jpg"
+        poster="/images/ketan-hero.webp"
         onError={(e) => {
           const target = e.currentTarget;
           target.style.display = 'none';
         }}
       >
+        <source src="/videos/Ketan_Hejo_Susu.webm" type="video/webm" />
         <source src="/videos/Ketan_Hejo_Susu.mp4" type="video/mp4" />
       </video>
 
       {/* Fallback background image (always shown, video overlays if loaded) */}
       <div
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: 'url(/images/ketan-hero.jpg)' }}
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-40"
+        style={{ backgroundImage: 'url(/images/ketan-hero.webp)' }}
       />
 
       {/* Overlay gradient */}
@@ -78,7 +79,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.3, duration: 0.8 }}
-          className="inline-flex items-center gap-2 px-4 py-2 rounded-full mb-6 text-sm font-semibold tracking-widest uppercase"
+          className="flex sm:inline-flex items-center justify-center gap-2 px-3 py-1.5 sm:px-4 sm:py-2 rounded-full mb-6 text-[10px] sm:text-sm font-semibold tracking-widest uppercase text-center"
           style={{
             backgroundColor: 'rgba(4, 57, 39, 0.85)',
             border: '1px solid rgba(197, 160, 89, 0.6)',
@@ -86,8 +87,10 @@ export default function Hero() {
             backdropFilter: 'blur(8px)',
           }}
         >
-          <span className="w-2 h-2 rounded-full bg-green-400 animate-pulse" />
-          Buka Setiap Hari · 10.00 – 22.00 WIB
+          <span className="w-1.5 h-1.5 sm:w-2 sm:h-2 rounded-full bg-green-400 animate-pulse" />
+          <span className="whitespace-nowrap">Buka Setiap Hari</span>
+          <span className="opacity-40 px-1">·</span>
+          <span className="whitespace-nowrap">10.00 – 22.00 WIB</span>
         </motion.div>
 
         {/* Main Heading */}

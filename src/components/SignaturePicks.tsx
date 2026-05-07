@@ -8,7 +8,7 @@ const picks = [
     emoji: '🌟',
     tag: 'Best Seller',
     tagColor: '#C5A059',
-    img: '/images/ketan-durian.jpg',
+    img: '/images/ketan-durian.webp',
   },
   {
     name: 'KHS Vanila Red Velvet',
@@ -17,7 +17,7 @@ const picks = [
     emoji: '🎂',
     tag: 'Signature',
     tagColor: '#be123c',
-    img: '/images/ketan-redvelvet.jpg',
+    img: '/images/ketan-redvelvet.webp',
   },
   {
     name: 'KHS Hazelnut Coco Krunch',
@@ -26,7 +26,7 @@ const picks = [
     emoji: '🌰',
     tag: 'Favorit',
     tagColor: '#92400e',
-    img: '/images/ketan-hazelnut.jpg',
+    img: '/images/ketan-hazelnut.webp',
   },
   {
     name: 'KHS Strawberry Keju',
@@ -35,7 +35,7 @@ const picks = [
     emoji: '🍓',
     tag: 'Popular',
     tagColor: '#be123c',
-    img: '/images/ketan-strawberry.jpg',
+    img: '/images/ketan-strawberry.webp',
   },
 ];
 

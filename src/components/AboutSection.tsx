@@ -24,12 +24,12 @@ const features = [
 ];
 
 const gallery = [
-  { img: '/images/ketan-hero1.jpg', label: 'KHS Original' },
-  { img: '/images/ketan-strawberry.jpg', label: 'KHS Strawberry Keju' },
-  { img: '/images/ketan-durian.jpg', label: 'KHS Durian Keju' },
-  { img: '/images/ketan-redvelvet.jpg', label: 'KHS Red Velvet' },
-  { img: '/images/ketan-mangga.jpg', label: 'KHS Mangga Keju' },
-  { img: '/images/ketan-hazelnut.jpg', label: 'KHS Hazelnut' },
+  { img: '/images/ketan-hero1.webp', label: 'KHS Original' },
+  { img: '/images/ketan-strawberry.webp', label: 'KHS Strawberry Keju' },
+  { img: '/images/ketan-durian.webp', label: 'KHS Durian Keju' },
+  { img: '/images/ketan-redvelvet.webp', label: 'KHS Red Velvet' },
+  { img: '/images/ketan-mangga.webp', label: 'KHS Mangga Keju' },
+  { img: '/images/ketan-hazelnut.webp', label: 'KHS Hazelnut' },
 ];
 
 export default function AboutSection() {
